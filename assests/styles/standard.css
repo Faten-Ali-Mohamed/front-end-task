@@ -137,23 +137,23 @@ div p .special{
   background-image: linear-gradient(180deg, #55c48b, #01849f);
   width: 300px;
   height: 350px;
-  padding: 50px 20px;
+  padding: 70px 40px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 10px;
   margin-left: 20px;
+  justify-content: space-between;  
 
 }
 .g .boxg p{
   font-size: 34px;
   margin-top: 30px;
   font-weight: bold;
-  margin-left: 15px;
+  letter-spacing: -0.5px;
 }
 .g .p11{
   margin-top: 20px;
-  margin-left: 40px;
   font-size: 16px;
   letter-spacing:4px;
 }
