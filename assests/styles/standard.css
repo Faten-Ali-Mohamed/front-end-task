@@ -18,19 +18,6 @@ a {
   color: inherit;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90vw;
-  margin: 20px auto;
-  height: 100px;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
-  border-radius: 60px;
-  flex-wrap: nowrap;
-  background-color: white;
-}
-
 .nav-logo img {
   height: 100px;
   width: auto;
@@ -80,21 +67,11 @@ nav {
   box-shadow: 0px 8px 20px 0px rgba(1, 132, 159, 0.5);
 }
 
-.hero-image {
-  z-index: -1;
-  position: absolute;
-  width: 1100px;
-  height: auto;
-  right: -200px;
-  top: 0px;
-  box-shadow: 10px 10px 0px 10px rgb(0 0 0 / 0.5);
-}
+
 .p1{
     font-size:20px ;
     color:#55c48b;
     letter-spacing:3px ;
-    margin-top: 400px;
-    margin-left: 170px;
 }
 .all{
     margin-left: 170px;
@@ -131,6 +108,8 @@ div p .special{
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(4 ,1fr);
+    width: 85vw;
+    margin: auto;
 }
 .g .boxg{
   color:white;
@@ -181,8 +160,9 @@ div{
   letter-spacing: -0.5px;
   color: #000;
 }
-.g .box1 h3 :hover{
-  color:#4ca276/*-------------------------------------------------------------*/
+.g .box1 h3:hover{
+  color:#4ca276;
+  transition: 0.3s ease-in-out;
 }
 .g .box1 p{
   font-size: 16px;
@@ -192,11 +172,14 @@ div{
 .g .card2:hover{
 border:#01849f solid 1px;
 color: #4ca276;
-
+transition: 0.3s ease-in-out;
+transform: translateY(-20px);
 }
+
 .img1 {
   animation:forwards 2s linear;
 } 
+
 .part2{
   display: flex;
   flex-direction: row;
@@ -205,17 +188,17 @@ color: #4ca276;
 .photo22{
   margin-left: 100px;
   margin-top: 100px;
-  /* left: 200px; *//*---------------------------------------------------*/
+
 }
 .p22{
-    margin-left: 150px;
+    margin-left: 80px;
     margin-top: 200px;
 
 }
-h4{
+#about-h4{
   font-size: 16px;
   line-height: 32px;
-  /* font-weight: 500px;------------------------------------ */
+  font-weight: 300px !important;
   color: #01849f; 
   letter-spacing: 6px;
 }
