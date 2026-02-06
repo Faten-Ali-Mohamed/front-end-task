@@ -130,7 +130,7 @@ div p .special{
     /* background-color: aqua; */
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(3 ,1fr);
+    grid-template-columns: repeat(4 ,1fr);
 }
 .g .boxg{
   color:white;
@@ -159,4 +159,78 @@ div p .special{
 }
 div{
   margin: auto;
+}
+.g .box1{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: #f4f4f4;
+  width: 300px;
+  height: 350px;
+  padding: 45px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* border: #01849f solid 1px; */
+  box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.15);
+  justify-content: space-between;  
+}
+.g .box1 h3{
+  font-size: 28px;
+  letter-spacing: -0.5px;
+  color: #000;
+}
+.g .box1 h3 :hover{
+  color:#4ca276/*-------------------------------------------------------------*/
+}
+.g .box1 p{
+  font-size: 16px;
+  color: #919191;
+  line-height: 32px;
+}
+.g .card2:hover{
+border:#01849f solid 1px;
+color: #4ca276;
+
+}
+.img1 {
+  animation:forwards 2s linear;
+} 
+.part2{
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(122, 220, 181, 0.203);
+}
+.photo22{
+  margin-left: 100px;
+  margin-top: 100px;
+  /* left: 200px; *//*---------------------------------------------------*/
+}
+.p22{
+    margin-left: 150px;
+    margin-top: 200px;
+
+}
+h4{
+  font-size: 16px;
+  line-height: 32px;
+  /* font-weight: 500px;------------------------------------ */
+  color: #01849f; 
+  letter-spacing: 6px;
+}
+.part2 .p22 .lan{
+  font-size: 48px;
+  letter-spacing: -0.5px;
+  color: #000;
+  font-weight: bold;
+  margin-top: 50px;
+  line-height: 67.2px;
+}
+.part2 .p22 .lan2{
+  font-size: 22px;
+  letter-spacing: -0.5px;
+  color: #AAA;
+  margin-top: 50px;
+  line-height: 44px;
 }
